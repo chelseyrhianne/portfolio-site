@@ -83,6 +83,11 @@ div.hero {
 div.hero p {
   font-size: 120px;
   font-weight: bold;
+  transition: all 700ms ease-in-out;
+}
+
+div.hero p:hover {
+  color: var(--primary-color);
 }
 
 /* ABOUT */
@@ -112,6 +117,11 @@ img.current-focus {
   display: block;
   margin: 0 auto;
   padding: 10px;
+  transition: all 300ms ease-in-out;
+}
+
+img.current-focus:hover {
+  opacity: 0.5;
 }
 
 hr {
@@ -131,14 +141,6 @@ div.project-card {
   text-align: center;
 }
 
-a.icon {
-  transition: all 300ms ease-in-out;
-}
-
-a.icon:hover {
-  opacity: 0.5;
-}
-
 img.icon {
   max-width: 30%;
 }
@@ -154,6 +156,14 @@ a.btn {
 
 a.btn:hover {
   box-shadow: 12px 10px var(--third-color);
+}
+
+.icon {
+  transition: all 300ms ease-in-out;
+}
+
+.icon:hover {
+  opacity: 0.5;
 }
 
 /* CONTACT */
