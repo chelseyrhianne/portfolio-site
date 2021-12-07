@@ -112,7 +112,7 @@ div.contact-section {
 div.contact-content {
   margin: 0 auto;
   max-width: 50%;
-  padding: 70px 100px;
+  padding: 70px 0;
   background-color: white;
   border: solid 2px var(--third-color);
   box-shadow: 6px 5px var(--third-color);
@@ -143,4 +143,55 @@ h2.contact {
 
 .wave-container.header {
   background-color: transparent;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  h3 {
+    padding: 30px;
+  }
+
+  h4 {
+    font-size: 52px;
+    padding-top: 100px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  a.btn {
+    font-size: 12px;
+  }
+
+  div.hero {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 50px 0;
+  }
+
+  div.about-section {
+    margin: 0 auto;
+  }
+
+  div.contact-section {
+    padding-bottom: 200px;
+  }
+
+  div.contact-content {
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 80%;
+  }
 }
