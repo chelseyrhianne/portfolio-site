@@ -29,7 +29,7 @@ h3 {
 }
 
 h4 {
-  font-size: 120px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -60,14 +60,31 @@ div.hero {
   margin: 50px 100px 300px 100px;
 }
 
+div.hero p {
+  font-size: 120px;
+  font-weight: bold;
+}
+
 /* ABOUT */
 
 div.about-section {
-  margin: 100px 0;
+  margin: 20px 0;
 }
 
-img.about-image {
-  padding-top: 100px;
+div.about {
+  background-color: var(--fourth-color);
+}
+
+div.about h2 {
+  padding-left: 50px;
+}
+
+div.about p {
+  padding: 10px 50px;
+}
+
+div.about img {
+  max-width: 10%;
 }
 /* PROJECTS */
 
@@ -79,14 +96,16 @@ div.project-card {
   text-align: center;
 }
 
-a.emoji {
-  font-size: 72px;
-  text-decoration: none;
+a.icon {
   transition: all 300ms ease-in-out;
 }
 
-a.emoji:hover {
+a.icon:hover {
   opacity: 0.5;
+}
+
+img.icon {
+  max-width: 30%;
 }
 
 a.btn {
@@ -132,6 +151,7 @@ h2.contact {
 .contact-link:hover {
   color: var(--third-color);
 }
+
 /* WAVES  */
 
 .wave-container {
