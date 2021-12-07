@@ -3,6 +3,7 @@
   --secondary-color: #23b1a5;
   --third-color: #ffdd7e;
   --fourth-color: #f3f3f3;
+  --text-color: #404040;
 }
 
 /* KEY ELEMENTS */
@@ -10,6 +11,7 @@
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
+  color: var(--text-color);
 }
 
 h1 {
@@ -19,10 +21,15 @@ h1 {
 h2 {
   font-size: 28px;
   font-weight: bold;
+  padding-top: 100px;
+}
+
+h3 {
+  padding: 30px;
 }
 
 h4 {
-  font-size: 98px;
+  font-size: 120px;
   font-weight: bold;
 }
 
@@ -34,55 +41,106 @@ footer {
 /* NAVBAR */
 
 .navbar {
-  padding: 10px 50px;
+  padding: 10px 40px;
+  background-color: var(--primary-color);
 }
 
 .navbar-brand {
   font-family: "Rancho", cursive;
   font-size: 32px;
-  color: var(--primary-color);
-  transition: all 300ms ease-in-out;
-}
-
-.navbar-brand:hover {
-  color: var(--third-color);
 }
 
 .nav-link {
-  color: var(--primary-color);
   margin-right: 50px;
-  transition: all 300ms ease-in-out;
-}
-
-.nav-link.active {
-  font-weight: bolder;
-}
-.nav-link:hover {
-  color: var(--third-color);
 }
 
 /* HERO */
 
 div.hero {
-  padding: 100px 0px;
+  margin: 50px 100px 300px 100px;
 }
 
-img.hero-image {
-  border-radius: 4px;
+/* ABOUT */
+
+div.about-section {
+  margin: 100px 0;
 }
 
+img.about-image {
+  padding-top: 100px;
+}
 /* PROJECTS */
+
+div.projects {
+  padding: 50px 0 50px 0;
+}
+
+div.project-card {
+  text-align: center;
+}
 
 a.emoji {
   font-size: 72px;
   text-decoration: none;
+  transition: all 300ms ease-in-out;
 }
 
-/* FOOTER */
+a.emoji:hover {
+  opacity: 0.5;
+}
+
+a.btn {
+  margin: 30px 0 50px 0;
+  border: solid 1px var(--third-color);
+  border-radius: 0;
+  box-shadow: 6px 5px var(--third-color);
+  transition: all 300ms ease-in-out;
+  padding: 10px 20px;
+}
+
+a.btn:hover {
+  box-shadow: 12px 10px var(--third-color);
+}
+
+/* CONTACT */
+
+div.contact-section {
+  background-color: var(--primary-color);
+  padding-bottom: 400px;
+}
+
+div.contact-content {
+  margin: 0 auto;
+  max-width: 50%;
+  padding: 70px 100px;
+  background-color: white;
+  border: solid 2px var(--third-color);
+  box-shadow: 6px 5px var(--third-color);
+  text-align: center;
+}
+
+h2.contact {
+  padding-top: 30px;
+}
+
+.contact-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+
+.contact-link:hover {
+  color: var(--third-color);
+}
+/* WAVES  */
 
 .wave-container {
   position: relative;
   color: #fff;
   text-align: center;
   overflow: hidden;
+}
+
+.wave-container.header {
+  background-color: transparent;
 }
