@@ -112,6 +112,11 @@ div.about p.final-paragraph {
   padding-bottom: 40px;
 }
 
+img.about-image {
+  border: 1px solid var(--third-color);
+  box-shadow: 6px 5px var(--third-color);
+}
+
 img.current-focus {
   max-width: 60%;
   display: block;
@@ -126,7 +131,7 @@ img.current-focus:hover {
 
 hr {
   margin: 0 auto;
-  padding: 2px;
+  padding: 1px;
   color: var(--third-color);
   opacity: 1;
 }
