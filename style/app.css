@@ -112,11 +112,6 @@ div.about p.final-paragraph {
   padding-bottom: 40px;
 }
 
-img.about-image {
-  border: 1px solid var(--third-color);
-  box-shadow: 6px 5px var(--third-color);
-}
-
 img.current-focus {
   max-width: 60%;
   display: block;
@@ -283,19 +278,15 @@ h2.contact {
 
   /* PROJECTS */
 
-  a.btn {
-    font-size: 12px;
-    margin: 20px 0 50px 0;
+  .carousel {
+    padding: 0 40px;
+    margin-bottom: 40px;
   }
 
-  .project-card h3 {
-    padding: 20px 0;
+  .carousel-icon {
+    opacity: 40%;
+    padding: 30px;
   }
-
-  .project-card p {
-    margin: 10px 0;
-  }
-
   /* CONTACT */
 
   div.contact-section {
