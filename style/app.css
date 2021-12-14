@@ -98,6 +98,7 @@ div.about-section {
 
 div.about {
   background-color: var(--fourth-color);
+  border-radius: 4px;
 }
 
 div.about h2 {
@@ -110,6 +111,10 @@ div.about p {
 
 div.about p.final-paragraph {
   padding-bottom: 40px;
+}
+
+img.about-image {
+  border-radius: 4px;
 }
 
 img.current-focus {
@@ -292,6 +297,7 @@ h2.contact {
     text-decoration: none;
     color: var(--text-color);
   }
+
   /* CONTACT */
 
   div.contact-section {
