@@ -284,8 +284,13 @@ h2.contact {
   }
 
   .carousel-icon {
-    opacity: 40%;
+    opacity: 30%;
     padding: 30px;
+  }
+
+  .carousel-caption a {
+    text-decoration: none;
+    color: var(--text-color);
   }
   /* CONTACT */
 
